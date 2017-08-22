@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-wb-eslint",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "eslint config for vue.js projects",
   "main": "index.js",
   "repository": {

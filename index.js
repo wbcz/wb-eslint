@@ -20,10 +20,11 @@ module.exports = {
         "eslint:recommended",
         'plugin:vue/recommended'
     ],
-    "parser": "babel-eslint",
+    // "parser": "babel-eslint",
     "parserOptions":  {
         "ecmaVersion": 6,
         "sourceType": "module",
+        "parser": "babel-eslint",
         "ecmaFeatures": {
             "jsx": true,
             "generators": true,
@@ -115,7 +116,7 @@ module.exports = {
         "no-useless-call": 2,
         "no-useless-concat": 2,
         "no-void": 2,
-        "object-shorthand": 2,
+        "object-shorthand": 0,
         "operator-assignment": 2,
         "operator-linebreak": 0,
         "prefer-const": 2,
